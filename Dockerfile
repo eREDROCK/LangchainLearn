@@ -10,5 +10,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # アプリケーションコードをコピー
 COPY . .
 
-# 設定ファイルやトレース用の環境変数を設定するためのエントリポイントを設定
-CMD ["tail", "-f", "/dev/null"]
+# # 設定ファイルやトレース用の環境変数を設定するためのエントリポイントを設定
+# CMD ["tail", "-f", "/dev/null"]
